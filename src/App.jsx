@@ -6,7 +6,6 @@ import LanguageProvider from "./Widgets/Providers/LanguageProvider";
 import AuthProvider from "./Widgets/Providers/AuthProvider";
 import Navigation from "./Widgets/Navigation/Navigation";
 
-
 function App() {
   return (
     <ThemeProvider>

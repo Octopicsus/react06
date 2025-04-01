@@ -4,7 +4,6 @@ import styles from "./Content.module.css";
 import LoginForm from "../LoginForm/LoginForm";
 import TodoApp from "../TodoApp/TodoApp";
 
-
 export default function Content() {
   const { theme } = useContext(ThemeContext);
   const { isAuth } = useContext(AuthContext);
