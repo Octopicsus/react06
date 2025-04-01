@@ -17,7 +17,7 @@ export default function TodoAppProvider({ children }) {
       id: Date.now(),
       text,
       priority: priority || "medium",
-      status: "open"
+      status: "open",
     };
 
     const newTodos = [...todos, newTodo];
@@ -27,7 +27,7 @@ export default function TodoAppProvider({ children }) {
   };
 
   const updateTodoStatus = (id, status) => {
-    const updatedTodos = todos.map(todo => 
+    const updatedTodos = todos.map((todo) =>
       todo.id === id ? { ...todo, status } : todo
     );
 
@@ -36,7 +36,7 @@ export default function TodoAppProvider({ children }) {
   };
 
   const updateTodoPriority = (id, priority) => {
-    const updatedTodos = todos.map(todo => 
+    const updatedTodos = todos.map((todo) =>
       todo.id === id ? { ...todo, priority } : todo
     );
 
@@ -45,14 +45,22 @@ export default function TodoAppProvider({ children }) {
   };
 
   const deleteTodo = (id) => {
-    const updatedTodos = todos.filter(todo => todo.id !== id);
+    const updatedTodos = todos.filter((todo) => todo.id !== id);
     setTodos(updatedTodos);
-    
+
     localStorage.setItem("todos", JSON.stringify(updatedTodos));
   };
 
   return (
-    <TodosContext.Provider value={{ todos, addNewTodo, updateTodoStatus, updateTodoPriority, deleteTodo }}>
+    <TodosContext.Provider
+      value={{
+        todos,
+        addNewTodo,
+        updateTodoStatus,
+        updateTodoPriority,
+        deleteTodo,
+      }}
+    >
       {children}
     </TodosContext.Provider>
   );

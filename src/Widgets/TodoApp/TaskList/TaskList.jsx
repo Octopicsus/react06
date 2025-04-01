@@ -14,7 +14,7 @@ export default function TaskList() {
       }`}
     >
       {todos.map((todo) => (
-        <li key={todo.id || Math.random()}>
+        <li key={todo.id}>
           <TaskItem todo={todo} />
         </li>
       ))}
