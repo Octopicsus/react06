@@ -1,0 +1,11 @@
+.lightButton {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.darkButton {
+    background-color: black;
+    color: white;
+    border: 1px rgba(255, 255, 255, 0.226) solid;
+}

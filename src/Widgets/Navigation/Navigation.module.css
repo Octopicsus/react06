@@ -1,0 +1,32 @@
+.light {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    width: 100%;
+    margin: 0;
+
+}
+
+.dark {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(35, 35, 41);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.158);
+    width: 100%;
+    margin: 0;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+button{
+    margin: 0;
+}

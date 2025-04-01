@@ -1,0 +1,85 @@
+.taskItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.taskItemLight {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.taskItemDark {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+.priority {
+  width: 10px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.low {
+  background-color: rgb(138, 241, 245);
+}
+
+.medium {
+  background-color: rgb(12, 94, 247);
+}
+
+.high {
+  background-color: rgb(236, 77, 29);
+}
+
+.taskText {
+  flex-grow: 1;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.statusSelect {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.statusSelectLight {
+  background-color: #ffffff5e;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.statusSelectDark {
+  background-color: #44444469;
+  color: white;
+  border: 1px solid #66666665;
+}
+
+.deleteBtn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.deleteBtnLight {
+  background-color: #f44336c7;
+  color: white;
+}
+
+.deleteBtnDark {
+  background-color: #f44336;
+  color: white;
+}
+
+.deleteBtn:hover {
+  opacity: 0.9;
+}
+
+.taskItemDone {
+  background-color: rgba(75, 181, 67, 0.178);
+}

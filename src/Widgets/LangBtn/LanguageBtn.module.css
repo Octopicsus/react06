@@ -1,0 +1,13 @@
+.lang {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 40px;
+}
+
+.light {
+    color: black;
+}
+
+.dark {
+    color: white;
+}

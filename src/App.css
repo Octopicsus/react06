@@ -1,0 +1,10 @@
+#root {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  width: 120px;
+}

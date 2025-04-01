@@ -1,0 +1,60 @@
+.newTaskForm {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.taskInput {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.lightInput {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.darkInput {
+    background-color: #3a3a3a;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.prioritySelect {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.lightSelect {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.darkSelect {
+    background-color: #3a3a3a;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.saveButton {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lightButton {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0069d9;
+}
+
+.darkButton {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0069d9;
+}

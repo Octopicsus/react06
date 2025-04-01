@@ -1,0 +1,30 @@
+.list {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.lightList {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.darkList {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.lightTitle {
+    color: #333;
+}
+
+.darkTitle {
+    color: white;
+}
+
+h3 {
+    color: grey;
+}
