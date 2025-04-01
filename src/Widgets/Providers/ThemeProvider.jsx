@@ -12,6 +12,8 @@ export default function ThemeProvider({ children }) {
     if (savedTheme) {
       return THEMES[savedTheme];
     }
+
+    return THEMES.LIGHT;
   };
 
   const [theme, setTheme] = useState(getInitialTheme);

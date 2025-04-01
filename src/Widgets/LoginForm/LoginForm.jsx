@@ -23,8 +23,6 @@ export default function LoginForm() {
 
       setIsAuth(true);
     } else {
-      console.log("Setting error with language:", language);
-      console.log("Error message:", TRANSLATIONS.ERRORMESSAGE[language]);
       setError(TRANSLATIONS.ERRORMESSAGE[language]);
     }
   };

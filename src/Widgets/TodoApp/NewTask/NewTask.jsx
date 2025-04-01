@@ -39,7 +39,7 @@ export default function NewTask() {
           theme === THEMES.LIGHT ? styles.lightSelect : styles.darkSelect
         }`}
         value={priority}
-        onChange={(e) => setPriority(e.target.value)}
+        onChange={(event) => setPriority(event.target.value)}
       >
         <option value="low">{TRANSLATIONS.LOW_PRIORITY[language]}</option>
         <option value="medium">{TRANSLATIONS.MEDIUM_PRIORITY[language]}</option>
