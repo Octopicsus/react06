@@ -31,7 +31,6 @@ export const TRANSLATIONS = {
     [LANGUAGES.EN]: "Invalid username or password",
   },
 
-  // TodoApp translations
   TODO_APP_TITLE: {
     [LANGUAGES.RU]: "Список задач",
     [LANGUAGES.EN]: "Todo Application",
@@ -57,7 +56,6 @@ export const TRANSLATIONS = {
     [LANGUAGES.EN]: "Delete",
   },
   
-  // Task priorities
   PRIORITY: {
     [LANGUAGES.RU]: "Приоритет",
     [LANGUAGES.EN]: "Priority",
@@ -78,7 +76,6 @@ export const TRANSLATIONS = {
     [LANGUAGES.EN]: "High",
   },
   
-  // Task statuses
   STATUS: {
     [LANGUAGES.RU]: "Статус",
     [LANGUAGES.EN]: "Status",
