@@ -14,12 +14,12 @@ export default function TaskItem({ todo }) {
   const { language } = useContext(LanguageContext);
   const { theme } = useContext(ThemeContext);
 
-  const handleStatusChange = (e) => {
-    updateTodoStatus(todo.id, e.target.value);
+  const handleStatusChange = (event) => {
+    updateTodoStatus(todo.id, event.target.value);
   };
 
-  const handlePriorityChange = (e) => {
-    updateTodoPriority(todo.id, e.target.value);
+  const handlePriorityChange = (event) => {
+    updateTodoPriority(todo.id, event.target.value);
   };
 
   const handleDelete = () => {
